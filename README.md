@@ -1,36 +1,38 @@
 # 🍎 Apple Official Website Clone
 
-Bu layihə Apple-ın rəsmi veb saytının ana səhifəsinin vizual olaraq klonlanmasıdır. "Div Academy" təhsili müddətində HTML və CSS bacarıqlarını tətbiq etmək üçün hazırlanmışdır.
+Bu layihə Apple-ın rəsmi veb saytının ana səhifəsinin vizual klonudur.  
+"Div Academy" təhsili müddətində HTML və CSS bacarıqlarını tətbiq etmək məqsədilə hazırlanmışdır.
 
 ## 🚀 Canlı Baxış (Demo)
 
-Səhifəni canlı izləmək üçün bura klikləyin: 
-👉 [BURAYA_GITHUB_PAGES_LINKINI_YAPISTIR]
+👉 [GitHub Pages linki əlavə olunacaq]
 
 ## ✨ Özəlliklər
 
-* **Apple UI/UX:** Apple-ın minimalist dizaynı, rəsmi rəng palitrası və premium görünüşü.
-* **Custom CSS Animations:** Naviqasiya menyusunda və linklərdə xüsusi hover və keçid effektləri.
-* **Flexbox Layout:** Saytın bütün bölmələri modern Flexbox texnikası ilə düzülüb.
+- Apple UI/UX: Minimalist dizayn və premium görünüş  
+- Custom CSS Animations: Naviqasiya və linklər üçün hover effektləri  
+- Flexbox Layout: Modern və səliqəli struktur  
 
 ## 🛠️ İstifadə Olunan Texnologiyalar
 
-* **HTML5** (Semantik struktur)
-* **CSS3** (Flexbox, Positioning, Keyframes animasiyaları)
-* **Font Awesome** (İkonlar üçün)
+- HTML5  
+- CSS3 (Flexbox, Positioning, Animations)  
+- Font Awesome  
 
 ## 📁 Qovluq Strukturu
 
-├── css/
-│   └── style.css
-├── img/
-│   └── (Layihədə istifadə olunan bütün məhsul və arxa fon şəkilləri)
-├── index.html
-└── README.md
+├── css/  
+│   └── style.css  
+├── img/  
+│   └── images  
+├── index.html  
+└── README.md  
 
 ## ✒️ Müəllif
 
-- **Hamid** - [@Hamid-web-arch](https://github.com/Hamid-web-arch)
+Həmid Ağabəyov  
+GitHub: https://github.com/Hamid-web-arch  
 
 ---
-*Bu layihə yalnız təhsil məqsədi daşıyır.*
+
+Bu layihə yalnız təhsil məqsədi daşıyır. Apple Inc. ilə rəsmi əlaqəsi yoxdur.
