@@ -5,7 +5,7 @@ Bu layihə Apple-ın rəsmi veb saytının ana səhifəsinin vizual klonudur.
 
 ## 🚀 Canlı Baxış (Demo)
 
-👉 [GitHub Pages linki əlavə olunacaq]
+👉 https://hamid-web-arch.github.io/Apple-clone/
 
 ## ✨ Özəlliklər
 
