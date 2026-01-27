@@ -1,0 +1,967 @@
+  .container {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  /* HEADER */
+  header {
+    background: #f2f2f2;
+  }
+
+  header .all-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+  }
+  /* LOGO */
+  header .all-navbar .logo i {
+    width: 20px;
+    font-size: 18px;
+  }
+
+  /* NAVBAR */
+  header .all-navbar nav ul {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font:
+      600 11px Arial,
+      Helvetica,
+      sans-serif;
+    color: #000;
+  }
+
+  nav a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: black;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+    margin-top: 5px;
+  }
+  nav a:hover::after {
+    transform: scaleX(1);
+  }
+
+  /* ICONS */
+
+  header .all-navbar .icons {
+    display: flex;
+    gap: 20px;
+  }
+  header .all-navbar .icons i {
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  /* ALL ITEMS */
+  .all-items-bg {
+    background: #fff;
+  }
+
+  header .all-items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header .all-items .item {
+    padding: 10px;
+    text-align: center;
+  }
+
+  header .all-items .item p,
+  header .all-items .item span {
+    font:
+      400 11px Arial,
+      Helvetica,
+      sans-serif;
+    text-transform: capitalize;
+    margin: 5px 0;
+  }
+
+  header .all-items .item .new {
+    color: #bf4800;
+  }
+
+  /* HEADER BOTTOM INFO */
+  .header-bottom-info {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .header-bottom-info p {
+    font:
+      500 21px Arial,
+      Helvetica,
+      sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .header-bottom-info a {
+    font:
+      500 16px Arial,
+      Helvetica,
+      sans-serif;
+    text-decoration: none;
+    color: #0071dc;
+  }
+  /* HEADER BOTTOM IMG */
+  .header-bottom-img {
+    background: #000;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header-bottom-img .new,
+  .newphoria .new,
+  .card-name .new {
+    color: #bf4800;
+    font:
+      400 13px Arial,
+      Helvetica,
+      sans-serif;
+    text-transform: capitalize;
+  }
+
+  .header-bottom-img h5,
+  .newphoria h5,
+  #love-power-price h5 {
+    color: #8b887eff;
+    font:
+      400 17.6px Arial,
+      Helvetica,
+      sans-serif;
+    text-transform: capitalize;
+  }
+
+  .header-bottom-img .titanium {
+    background: url(../img/titanium.jpeg) center/contain no-repeat;
+    width: 100%;
+    height: 40px;
+  }
+
+  .header-bottom-img .price,
+  .newphoria .price,
+  #love-power-price .price {
+    color: #fff;
+    font:
+      400 14.4px Arial,
+      Helvetica,
+      sans-serif;
+    margin: 10px 0;
+  }
+
+  .header-bottom-img .btn,
+  .newphoria .btn,
+  #love-power-price .btn,
+  .card-name .btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: all 0.3s;
+    background-color: #0071e3;
+    text-decoration: none;
+  }
+
+  .header-bottom-img .btn:hover {
+    box-shadow: 3px 5px 7px #acb9ec;
+  }
+
+  .link {
+    display: inline-block;
+    color: #0071dc;
+    text-decoration: none;
+    font:
+      400 16px Arial,
+      Helvetica,
+      sans-serif;
+    position: relative;
+    text-transform: capitalize;
+  }
+
+  .header-bottom-img .link {
+    padding-top: 15px;
+  }
+
+  .link:hover::after {
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(
+      90deg,
+      rgba(180, 162, 58, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(84, 69, 252, 1) 100%
+    );
+    animation: border 1s linear forwards;
+  }
+
+  @keyframes border {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  .header-bottom-img .titanium-img {
+    background: url(../img/titanium-pc.png) center/contain no-repeat;
+    width: 60%;
+    height: 50vh;
+  }
+
+  /* ! NEWPHORIA */
+  .newphoria {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    padding: 40px 0;
+  }
+
+  .newphoria .newphoria-img {
+    background: url(../img/newphoria.jpeg) center/contain no-repeat;
+    height: 55vh;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .newphoria h5 {
+    color: #000;
+  }
+
+  .newphoria h2 {
+    color: #000;
+    font:
+      700 32px Arial,
+      Helvetica,
+      sans-serif;
+    text-transform: capitalize;
+  }
+
+  .newphoria .price {
+    color: #000;
+  }
+
+  .newphoria .btn:hover,
+  #love-power-price .btn:hover {
+    box-shadow: 3px 5px 7px #000;
+  }
+  /* !LOVE POWER & PRICE */
+  #love-power-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  #love-power-price .info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+  }
+  #love-power-price .info h5 {
+    color: #000;
+  }
+
+  #love-power-price .info h2 {
+    font:
+      700 48px Arial,
+      Helvetica,
+      sans-serif;
+    text-transform: capitalize;
+    color: #1e3791;
+  }
+
+  #love-power-price .info .price {
+    color: #000;
+  }
+
+  #love-power-price .love-power-img {
+    background: url(../img/lovebg.jpeg) center/contain no-repeat;
+    width: 50%;
+    height: 100vh;
+  }
+  /* !MID IMAGE */
+  #mid-image {
+    background: url(../img/applebg12.jpeg) center/cover no-repeat;
+    height: 100vh;
+    border-radius: 30px;
+    margin: 20px;
+  }
+
+  #mid-image .mid-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #mid-image .mid-info h4 {
+    font:
+      600 22.4px Arial,
+      Helvetica,
+      sans-serif;
+    color: #fff;
+  }
+
+  #mid-image .mid-info h2 {
+    font:
+      700 44.8px Arial,
+      Helvetica,
+      sans-serif;
+    color: #fff;
+  }
+
+  #mid-image .mid-info a {
+    width: 120px;
+    font:
+      500 12.8px Arial,
+      Helvetica,
+      sans-serif;
+    color: #fff;
+    text-decoration: none;
+    color: #000;
+    background: #ffffffcc;
+    padding: 8px 0;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* !PHONES */
+  #phones {
+    padding: 40px 0;
+  }
+  #phones .all-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  #phones .card {
+    width: 25%;
+  }
+  /* PHONE IMG */
+  #phones .card-img {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  /* PHONE IMG */
+  #phones .card-img .phone-img {
+    width: 100%;
+    height: 85%;
+    object-fit: contain;
+  }
+  /* CARD NAME */
+
+  #phones .card-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #d1d1d1;
+    margin: 20px 0;
+  }
+
+  #phones .card-name p > b {
+    font:
+      600 16px Arial,
+      Helvetica,
+      sans-serif;
+    text-transform: capitalize;
+  }
+
+  #phones .card-name p {
+    font: 400 16px;
+    width: 50%;
+    line-height: 20px;
+  }
+
+  #phones .card-name .btn {
+    display: inline-block;
+    margin: 10px 0 15px 0;
+  }
+
+  #phones .card-name .link {
+    margin-bottom: 15px;
+  }
+
+  /* CARD INFO */
+  #phones .card-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  #phones .card-info p {
+    font:
+      400 11.2px Arial,
+      Helvetica,
+      sans-serif;
+    line-height: 22px;
+  }
+
+  #phones .card-info .icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+
+  #phones .card-info .zoom {
+    font-size: 22.4px;
+    font-weight: 600;
+  }
+  /* PHONE LINKS */
+  #phones .phone-links {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  #phones .phone-links .link {
+    display: inline-block;
+  }
+  /* !WAYS TO SAVE */
+  #ways-save {
+    background: #f2f2f2;
+    padding: 40px 0;
+  }
+
+  #ways-save h2 {
+    font:
+      500 44.8px Arial,
+      Helvetica,
+      sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  /* CARDS */
+  #ways-save .all-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #ways-save .card {
+    width: 28%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+
+  #ways-save .card h5 {
+    font:
+      600 24px Arial,
+      Helvetica,
+      sans-serif;
+    width: 78%;
+    margin-bottom: 30px;
+  }
+
+  #ways-save .card p {
+    font:
+      400 16.4px Arial,
+      Helvetica,
+      sans-serif;
+    line-height: 24px;
+    color: #6e6e73;
+  }
+  /* CARD IMG */
+  #ways-save .card1-img {
+    width: 100%;
+    background: url(../img/save/savei_phone.jpg) center/contain no-repeat;
+    height: 30vh;
+  }
+
+  #ways-save .card2-img {
+    width: 50%;
+    background: url(../img/save/appleemoji.jpeg) center/contain no-repeat;
+    height: 20vh;
+  }
+
+  #ways-save .card3-img {
+    width: 50%;
+    background: url(../img/save/aplepphone.jpeg) center/contain no-repeat;
+    height: 30vh;
+  }
+
+  /* !WHY THE BEST PLACE? */
+  #best-place {
+    background: #f2f2f2;
+    padding-bottom: 40px;
+  }
+
+  #best-place .best-place-bg {
+    background: url(../img/best-place/applebg6.jpeg) center/cover;
+    height: 80vh;
+  }
+
+  #best-place .head-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  #best-place .head-info h2,
+  #featured-accessories h2 {
+    font:
+      700 44.8px Arial,
+      Helvetica,
+      sans-serif;
+    width: 44%;
+  }
+
+  #best-place .head-info p,
+  #featured-accessories .head-info p {
+    font:
+      400 16px Arial,
+      Helvetica,
+      sans-serif;
+    line-height: 20px;
+    width: 44%;
+    margin: 20px 0;
+  }
+  /* !FEATURED ACCESSORIES */
+  #featured-accessories {
+    background-color: #f2f2f2;
+  }
+
+  #featured-accessories .mag-safe,
+  #featured-accessories .air-tag,
+  #featured-accessories .magic-run {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+
+  #featured-accessories .head-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  #featured-accessories .head-text h2 {
+    text-align: center;
+    font:
+      700 44.8px Arial,
+      Helvetica,
+      sans-serif;
+    text-transform: capitalize;
+    width: 30%;
+  }
+
+  #featured-accessories .head-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* MAG SAFE IMG */
+  #featured-accessories .mag-safe-img,
+  #featured-accessories .air-tag-img {
+    width: 50%;
+    height: 60vh;
+  }
+  #featured-accessories .mag-safe-img {
+    background: url(../img/featured-accessoaries/mag-safe.jpeg) center/contain
+      no-repeat;
+  }
+
+  /* AIR TAG */
+  #featured-accessories .air-tag-img {
+    background: url(../img/featured-accessoaries/air-tag.jpeg) center/contain
+      no-repeat;
+  }
+
+  /* MAGIC RUNS */
+  #featured-accessories .magic-run-img {
+    background: url(../img/featured-accessoaries/magic-runs.jpeg) center/contain
+      no-repeat;
+    width: 100%;
+    height: 50vh;
+  }
+
+  #featured-accessories .magic-run {
+    flex-direction: column;
+  }
+
+  #featured-accessories .magic-run .head-info h2,
+  #featured-accessories .magic-run .head-info p {
+    width: 100%;
+  }
+
+  /* SHOP ALL ACCESSORIES */
+  .shop-all-accessories {
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  .shop-all-accessories .all-boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+  .shop-all-accessories .box {
+    width: 30%;
+  }
+
+  .shop-all-accessories .box h5 {
+    font: 600 1.3em Arial;
+    color: #000;
+    margin-top: 15px;
+  }
+
+  .shop-all-accessories .box p {
+    font:
+      400 1em Arial,
+      Helvetica,
+      sans-serif;
+    color: #000;
+    margin: 15px 0;
+  }
+  /* !WHAT MAKES IPHONE AN IPHONE */
+  #what-makes {
+    background-color: #f2f2f2;
+  }
+
+  #what-makes .head-text,
+  #get-more .head-text {
+    text-align: center;
+  }
+
+  #what-makes .head-text h2,
+  #get-more .head-text {
+    font:
+      700 32px Arial,
+      Helvetica,
+      sans-serif;
+    text-transform: capitalize;
+  }
+
+  #what-makes .ios-17 {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+
+  #what-makes .head-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #what-makes .head-info h5 {
+    font:
+      700 32px Arial,
+      Helvetica,
+      sans-serif;
+    text-transform: capitalize;
+  }
+
+  #what-makes .head-info p {
+    font:
+      400 16px Arial,
+      Helvetica,
+      sans-serif;
+    margin: 20px 0;
+  }
+
+  #what-makes .ios-17-img {
+    background: url(../img/what-makes/ios17.jpg) center/cover;
+    height: 50vh;
+    margin-top: 20px;
+  }
+
+  /* !SWITCHING && PRIVACY */
+  #what-makes .double-section {
+    display: flex;
+    gap: 20px;
+    padding: 40px 0;
+  }
+
+  #what-makes .switching,
+  #what-makes .privacy {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px 0;
+  }
+
+  #what-makes .double-section .head-info {
+    padding: 20px 0;
+  }
+
+  #what-makes .double-section .head-info h2 {
+    font:
+      700 30px Arial,
+      Helvetica,
+      sans-serif;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  /* SWITCHING IMG */
+  #what-makes .switching-img {
+    background: url(../img/what-makes/doble-section1.jpg) center/cover;
+    height: 40vh;
+  }
+
+  /* PRIVACY IMG */
+  #what-makes .privacy-img {
+    background: url(../img/what-makes/doble-section2.jpg) center/cover;
+    height: 40vh;
+  }
+  /* !GET MORE OUT OF YOUR IPHONE */
+  #get-more {
+    background-color: #f2f2f2;
+    padding-bottom: 40px;
+  }
+  #get-more .one {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  #get-more .head-info {
+    text-align: center;
+  }
+
+  #get-more .head-info h5 {
+    display: flex;
+    justify-content: center;
+    font: 700 44.8px arial;
+    text-transform: capitalize;
+  }
+
+  #get-more .head-info p {
+    font: 500 22.4px arial;
+    margin: 20px 0;
+  }
+
+  /* ONE IMG */
+  #get-more .one-img {
+    width: 50%;
+    background: url(../img/get-more/one.jpeg) center/contain no-repeat;
+    height: 40vh;
+  }
+
+  /* ALL CARDS */
+  #get-more .all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  #get-more .all-cards .card {
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  #get-more .all-cards .black {
+    background-color: #000;
+  }
+
+  #get-more .all-cards .black {
+    color: #fff;
+  }
+  /* TV IMG */
+  #get-more .tv-img {
+    width: 100%;
+    background: url(../img/get-more/tv.png) center/cover;
+    height: 40vh;
+  }
+  /* MUSIC IMG */
+  #get-more .music-img {
+    width: 100%;
+    background: url(../img/get-more/music.jpg) center/cover;
+    height: 40vh;
+  }
+
+  /* FITNESS IMG */
+  #get-more .fitnes-img {
+    width: 100%;
+    background: url(../img/get-more/fitnes.jpg) center/cover;
+    height: 50vh;
+  }
+
+  /* ARCADE IMG */
+  #get-more .arcade-img {
+    width: 100%;
+    background: url(../img/get-more/arcade.png) center/contain no-repeat;
+    height: 50vh;
+  }
+
+  /* NEWS IMG */
+  #get-more .news-img {
+    width: 100%;
+    background: url(../img/get-more/news.jpeg) center/cover;
+    height: 50vh;
+  }
+
+  /* GIFT CARD IMG */
+  #get-more .gift-img {
+    width: 100%;
+    background: url(../img/get-more/gift-cards.jpg) center/cover;
+    height: 50vh;
+  }
+
+  /* RESEARCH */
+  #get-more .research {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  #get-more .research .head-info {
+    width: 50%;
+  }
+
+  #get-more .research-img {
+    background: url(../img/get-more/reserch.jpg) center/contain no-repeat;
+    width: 100%;
+    height: 50vh;
+  }
+  /* !LARGE TEXT */
+  #large-text p,
+  #large-text li {
+    color: #0000007a;
+    font: 400 14px arial;
+  }
+
+  #large-text ol {
+    list-style-type: decimal;
+  }
+
+  #large-text ol li {
+    margin-left: 20px;
+  }
+
+  #large-text hr {
+    margin: 20px 0;
+  }
+
+  /* !FOOTER */
+  footer .logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  footer a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  footer .logo a i {
+    font-size: 24px;
+  }
+
+  footer .logo span {
+    font: 400 14px arial;
+    display: flex;
+    align-items: center;
+  }
+  footer .logo span i {
+    font-size: 14px;
+  }
+
+  /* ALL FOOTER COLUMNS */
+  .all-footer-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .all-footer-columns h4 {
+    font: 500 16px arial;
+    margin-bottom: 10px;
+  }
+
+  .all-footer-columns ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  footer p {
+    font: 400 14px arial;
+    color: #000000bd;
+  }
+
+  footer p a {
+    color: #000fff;
+  }
+
+  footer hr{
+    margin: 20px 0;
+  }
+
+  footer .copyrights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
