@@ -19,12 +19,14 @@ Bu layihə Apple-ın rəsmi veb saytının ana səhifəsinin vizual klonudur.
 - CSS3 (Flexbox, Positioning, Animations)  
 - Font Awesome  
 
-## 📁 Qovluq Strukturu
+## 📁 Layihə Strukturu  
 
-├── css/  
-│   └── style.css  
+├── css/     
+│   ├── reset.css  
+│   └── style.css   
 ├── img/  
-│   └── images  
+│   ├── about/  
+│   └── projects/   
 ├── index.html  
 └── README.md  
 
